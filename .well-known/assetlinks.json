@@ -1,1 +1,8 @@
-
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "io.github.pingu.panic.twa",
+        "sha256_cert_fingerprints": ["BC:21:20:C7:0C:F4:AB:B8:0C:41:28:D1:47:AC:5A:1B:D4:A9:D9:10:9A:B7:81:71:D8:02:1C:0B:CA:59:FA:A3"]
+      }
+    }]
