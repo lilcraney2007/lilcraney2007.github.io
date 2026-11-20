@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>About Pingu Panic – Games with Lil</title>
+<meta name="description" content="Pingu Panic is a free puzzle game by Games with Lil: tap the penguins off the ice floe in the right order, across 200 levels and 18 icy worlds.">
+<meta name="theme-color" content="#2a8fd8">
+<link rel="icon" href="icon-192.png">
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#1b2a44;background:#eef6fd;line-height:1.6}
+header{background:linear-gradient(180deg,#7fd8ff 0%,#4fb6f2 45%,#2a8fd8 100%);color:#fff;text-align:center;padding:28px 18px 34px;border-radius:0 0 28px 28px}
+header img{width:84px;height:84px;border-radius:22px;box-shadow:0 6px 18px rgba(0,40,90,.3)}
+header h1{margin:12px 0 2px;font-size:30px;letter-spacing:.5px;text-shadow:0 2px 0 rgba(0,40,90,.25)}
+header p{margin:0;opacity:.95}
+nav{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin:16px 0 0}
+nav a{color:#fff;text-decoration:none;font-weight:700;font-size:14px;background:rgba(255,255,255,.18);padding:6px 14px;border-radius:999px}
+nav a.on{background:#fff;color:#2a6fc0}
+main{max-width:720px;margin:0 auto;padding:10px 18px 60px}
+.lang{display:flex;justify-content:center;gap:8px;margin:18px 0 4px}
+.lang button{border:0;border-radius:999px;padding:7px 16px;font-weight:700;font-size:14px;background:#d6e7f7;color:#2a6fc0;cursor:pointer}
+.lang button.on{background:#2a8fd8;color:#fff}
+h2{font-size:21px;margin:28px 0 6px;color:#1c4f8f}
+.card{background:#fff;border-radius:18px;padding:16px 18px;margin:14px 0;box-shadow:0 3px 12px rgba(30,80,140,.08)}
+ul{padding-left:20px;margin:6px 0}
+.worlds{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;margin-top:10px}
+.worlds div{background:#eef6fd;border-radius:12px;padding:8px 10px;font-size:14px}
+.worlds b{display:block;color:#1c4f8f}
+.play{display:block;text-align:center;margin:30px auto 0;max-width:280px;background:#2fbf5a;color:#fff;font-weight:800;font-size:18px;text-decoration:none;padding:14px;border-radius:16px;box-shadow:0 5px 0 #1f9443}
+footer{text-align:center;font-size:13px;color:#6a7f9c;padding:0 18px 30px}
+footer a{color:#2a6fc0}
+[data-l]{display:none}[data-l].show{display:block}
+</style>
+</head><body>
+<header>
+  <img src="icon-192.png" alt="Pingu Panic icon">
+  <h1>Pingu Panic</h1>
+  <p>by Games with Lil</p>
+  <nav><a href="./">▶ Play</a><a href="about.html" class="on" id="navAbout">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a></nav>
+</header>
+<main>
+<div class="lang"><button id="bEn">English</button><button id="bNl">Nederlands</button></div>
+
+<section data-l="en">
+  <h2>About the game</h2>
+  <p><strong>Pingu Panic</strong> is a free puzzle game about a crowded ice floe full of penguins. Every penguin looks in one direction. Tap a penguin and it waddles off the floe that way – but only if the path is clear. Bump into another penguin and you lose a life. Your job: find the right order and get every penguin safely into the sea before the clock runs out.</p>
+  <p>It is easy to learn and hard to put down. The first levels take seconds, but later boards are full of tricks that make you stop and think.</p>
+
+  <h2>How to play</h2>
+  <div class="card"><ul>
+    <li><strong>Tap</strong> a penguin to send it off the floe in the direction it is facing.</li>
+    <li><strong>Look before you tap:</strong> a penguin can only leave if nothing is in its way.</li>
+    <li><strong>Watch the clock.</strong> Finish fast for up to three stars.</li>
+    <li><strong>Stuck?</strong> After two bumps, the best penguin lights up to help you on your way.</li>
+    <li>Collect <strong>coins</strong>, daily bonuses and gifts from the balloon on the map.</li>
+  </ul></div>
+
+  <h2>200 levels, 18 worlds</h2>
+  <p>Your journey starts at the North Pole and ends in Penguin Paradise. Every world adds something new: snowstorms that push your penguins around, ice that cracks, sleeping penguins, magic portals, fishing holes, an orca boss and even a polar bear on the floe.</p>
+  <div class="worlds">
+    <div><b>North Pole</b>Where it all begins</div><div><b>Iceberg Bay</b>Sunset by the sea</div><div><b>Polar Night</b>Under the northern lights</div>
+    <div><b>Snowstorm</b>Hold on to your penguins!</div><div><b>Glacier</b>Snowdrifts in the way</div><div><b>Ice Cave</b>Holes in the dark</div>
+    <div><b>Pack Ice</b>The ice is cracking!</div><div><b>Fishing Grounds</b>Catch fish on the way</div><div><b>Currents</b>The sea pushes you along</div>
+    <div><b>Chick Beach</b>Chicks follow mum</div><div><b>Magic Ice</b>Magic portals</div><div><b>Night Frost</b>Everything freezes</div>
+    <div><b>Polar Bear Land</b>A polar bear on the floe!</div><div><b>Crystal Cave</b>Master world 1</div><div><b>Northern Lights</b>Master world 2</div>
+    <div><b>South Pole</b>Master world 3</div><div><b>Fire Ice</b>Master world 4</div><div><b>Penguin Paradise</b>The final journey</div>
+  </div>
+  <p>Every day there is also a <strong>daily challenge</strong> with its own twist, like Orca Monday, Turning Tuesday and Fast Friday.</p>
+
+  <h2>Who makes Pingu Panic?</h2>
+  <p><strong>Games with Lil</strong> is a small independent game studio from the Netherlands. Pingu Panic is our first game. We design every level ourselves and keep improving the game based on what players tell us. Ideas, bugs or just a nice message? We would love to hear from you on the <a href="contact.html">contact page</a>.</p>
+
+  <h2>Free to play</h2>
+  <p>Pingu Panic is free. The game is supported by ads, for example an optional video you can watch for a reward. Players who are under 13 never get personalised ads. Your progress is saved on your own device. Read more in our <a href="privacy.html">privacy policy</a>.</p>
+  <a class="play" href="./">▶ Play Pingu Panic</a>
+</section>
+
+<section data-l="nl">
+  <h2>Over de game</h2>
+  <p><strong>Pingu Panic</strong> is een gratis puzzelgame over een overvolle ijsschots vol pinguïns. Elke pinguïn kijkt één kant op. Tik op een pinguïn en hij waggelt die kant op van de schots af – maar alleen als de weg vrij is. Bots je tegen een andere pinguïn, dan verlies je een leven. Jouw taak: vind de juiste volgorde en krijg alle pinguïns veilig in zee voordat de tijd op is.</p>
+  <p>Makkelijk om te leren en moeilijk om weg te leggen. De eerste levels speel je in een paar seconden, maar latere borden zitten vol trucjes waar je echt over moet nadenken.</p>
+
+  <h2>Zo speel je</h2>
+  <div class="card"><ul>
+    <li><strong>Tik</strong> op een pinguïn om hem van de schots te sturen, de kant op waar hij naar kijkt.</li>
+    <li><strong>Kijk eerst goed:</strong> een pinguïn kan alleen weg als er niets in de weg staat.</li>
+    <li><strong>Let op de klok.</strong> Ben je snel klaar, dan krijg je tot drie sterren.</li>
+    <li><strong>Vast?</strong> Na twee keer botsen licht de beste pinguïn op om je te helpen.</li>
+    <li>Verzamel <strong>munten</strong>, dagelijkse bonussen en cadeaus uit de ballon op de kaart.</li>
+  </ul></div>
+
+  <h2>200 levels, 18 werelden</h2>
+  <p>Je reis begint op de Noordpool en eindigt in het Pinguïnparadijs. Elke wereld brengt iets nieuws: sneeuwstormen die je pinguïns wegduwen, ijs dat scheurt, slapende pinguïns, magische poorten, wakken met vis, een orka-baas en zelfs een ijsbeer op de schots.</p>
+  <div class="worlds">
+    <div><b>Noordpool</b>Waar het allemaal begint</div><div><b>IJsbergbaai</b>Zonsondergang aan zee</div><div><b>Poolnacht</b>Onder het noorderlicht</div>
+    <div><b>Sneeuwstorm</b>Hou je pinguïns vast!</div><div><b>Gletsjer</b>Sneeuwhopen in de weg</div><div><b>IJsgrot</b>Wakken in het donker</div>
+    <div><b>Pakijs</b>Het ijs scheurt!</div><div><b>Visgronden</b>Vang vis onderweg</div><div><b>Stroming</b>De zee duwt je mee</div>
+    <div><b>Kuikenstrand</b>Kuikens volgen mama</div><div><b>Toverijs</b>Magische poorten</div><div><b>Nachtvorst</b>Alles bevriest</div>
+    <div><b>IJsbeerland</b>Een ijsbeer op de schots!</div><div><b>Kristalgrot</b>Meesterwereld 1</div><div><b>Noorderlicht</b>Meesterwereld 2</div>
+    <div><b>Zuidpool</b>Meesterwereld 3</div><div><b>Vuurijs</b>Meesterwereld 4</div><div><b>Pinguïnparadijs</b>De laatste reis</div>
+  </div>
+  <p>Elke dag is er ook een <strong>dagelijkse uitdaging</strong> met een eigen twist, zoals Orka-maandag, Draai-dinsdag en Vlugge vrijdag.</p>
+
+  <h2>Wie maakt Pingu Panic?</h2>
+  <p><strong>Games with Lil</strong> is een kleine, onafhankelijke gamestudio uit Nederland. Pingu Panic is onze eerste game. We ontwerpen elk level zelf en maken de game steeds beter met wat spelers ons vertellen. Ideeën, bugs of gewoon een leuk berichtje? Laat het ons weten via de <a href="contact.html">contactpagina</a>.</p>
+
+  <h2>Gratis te spelen</h2>
+  <p>Pingu Panic is gratis. De game wordt betaald met advertenties, bijvoorbeeld een video die je kunt kijken voor een beloning. Spelers onder de 13 krijgen nooit gepersonaliseerde advertenties. Je voortgang wordt op je eigen toestel bewaard. Lees meer in ons <a href="privacy.html">privacybeleid</a>.</p>
+  <a class="play" href="./">▶ Speel Pingu Panic</a>
+</section>
+</main>
+<footer>© 2026 Games with Lil · <a href="mailto:pingupanic0@gmail.com">pingupanic0@gmail.com</a></footer>
+<script>
+(function(){
+  var l='en';
+  try{var s=JSON.parse(localStorage.getItem('pinguin-paniek-v1')||'{}');if(s.lang)l=s.lang;else if((navigator.language||'').slice(0,2)==='nl')l='nl';}catch(e){}
+  function set(x){l=x;document.documentElement.lang=x;
+    document.querySelectorAll('[data-l]').forEach(function(e){e.classList.toggle('show',e.getAttribute('data-l')===x)});
+    document.getElementById('bEn').classList.toggle('on',x==='en');document.getElementById('bNl').classList.toggle('on',x==='nl');
+    document.getElementById('navAbout').textContent=x==='nl'?'Over ons':'About';}
+  document.getElementById('bEn').onclick=function(){set('en')};document.getElementById('bNl').onclick=function(){set('nl')};
+  set(l==='nl'?'nl':'en');
+})();
+</script>
+</body></html>
